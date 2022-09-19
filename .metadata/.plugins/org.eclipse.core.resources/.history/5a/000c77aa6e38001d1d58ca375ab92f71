@@ -1,5 +1,3 @@
-import java.io.Console;
-import java.io.Reader;
 
 public class Main {
 
@@ -45,45 +43,6 @@ public class Main {
 				enBuyuk = s4;
 				System.out.println("En buyuk sayý: " + enBuyuk);
 			}
-		}
-		
-		
-		//Switch-Case
-		{
-			//Console console = System.console();
-			//String day = console.readLine("Geçerli Günü Giriniz : ");
-			String day = "test";
-			switch(day) {
-				case("Pazartesi"):
-					System.out.println("Bugün: " + day);
-					break;
-				case("Salý"):
-					System.out.println("Bugün: " + day);
-					break;
-				case("Çarþamba"):
-					System.out.println("Bugün: " + day);
-					break;
-				default:
-				System.out.println("Bugün: Haftasonu");
-				break;
-					
-			}
-		}
-		
-		
-		//For Döngüsü
-		for(int i=0;i<10;i++) {
-			System.out.println(i);
-			if(i==9) {
-				System.out.println("Döngü bitti");
-			}
-		}
-		
-		//while
-		//int i=0;
-		while(i<5) {
-			System.out.println("\"i\" sayýsý 1 arrtý yeni deðer = "+i);
-			i++;
 		}
 		
 		

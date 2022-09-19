@@ -80,10 +80,9 @@ public class Main {
 		}
 		
 		//while
-		//int i=0;
+		int i=0;
 		while(i<5) {
 			System.out.println("\"i\" sayýsý 1 arrtý yeni deðer = "+i);
-			i++;
 		}
 		
 		

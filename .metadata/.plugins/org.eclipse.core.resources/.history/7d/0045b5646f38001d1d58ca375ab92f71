@@ -72,18 +72,11 @@ public class Main {
 		
 		
 		//For Döngüsü
-		for(int i=0;i<10;i++) {
+		for(int i=0;i<9;i++) {
 			System.out.println(i);
 			if(i==9) {
-				System.out.println("Döngü bitti");
+				System.out.println("Döngð bitti");
 			}
-		}
-		
-		//while
-		//int i=0;
-		while(i<5) {
-			System.out.println("\"i\" sayýsý 1 arrtý yeni deðer = "+i);
-			i++;
 		}
 		
 		

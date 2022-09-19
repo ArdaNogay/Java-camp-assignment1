@@ -1,0 +1,29 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello World");
+		
+		int dersNo = 1;
+		
+		System.out.println("Ýzlenen ders : " + dersNo);
+		
+		{
+			boolean degisken = false; System.out.println(degisken);
+			char degisken1 = 'A'; System.out.println(degisken1);
+			byte d1= -128; System.out.println(d1);
+			short d2= 32767; System.out.println(d2);
+			int d3= 5; System.out.println(d3);
+			long d4= 555555555; System.out.println(d4);
+			float d5= 888888888; System.out.println(d5);
+			double d6= 2.28; System.out.println(d6);
+			
+		}
+		
+		
+
+		
+	}
+
+}

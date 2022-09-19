@@ -50,9 +50,9 @@ public class Main {
 		
 		//Switch-Case
 		{
-			//Console console = System.console();
-			//String day = console.readLine("Geçerli Günü Giriniz : ");
-			String day = "test";
+			Console console = System.console();
+			String day = console.readLine("Geçerli Günü Giriniz : ");
+			
 			switch(day) {
 				case("Pazartesi"):
 					System.out.println("Bugün: " + day);
@@ -68,22 +68,6 @@ public class Main {
 				break;
 					
 			}
-		}
-		
-		
-		//For Döngüsü
-		for(int i=0;i<10;i++) {
-			System.out.println(i);
-			if(i==9) {
-				System.out.println("Döngü bitti");
-			}
-		}
-		
-		//while
-		//int i=0;
-		while(i<5) {
-			System.out.println("\"i\" sayýsý 1 arrtý yeni deðer = "+i);
-			i++;
 		}
 		
 		
