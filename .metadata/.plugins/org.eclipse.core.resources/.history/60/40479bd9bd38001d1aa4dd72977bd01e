@@ -222,26 +222,18 @@ public class Main {
 				toplam1[x]=topla;
 				x++;
 			}
-			if(toplam1[0]==sayilarr[1] && toplam1[1]==sayilarr[0]) {
+			if(toplam1[0]==sayilar[1] && toplam1[1]==sayilar[0]) {
 				System.out.println("Bu iki sayý arkadaþtýr.");
 			}
 			
 		}
 		
-		//Sayi Bulma
-		{
-			int[] sayiDizisi = {1,2,3,4,5,6,7,8,9,0};
-			
-			int aranacak = 10;
-			
-			for(int deger:sayiDizisi) {
-				if(deger==aranacak) {
-					System.out.println(deger +" Sayýsý bu dizide mevcuttur");
-				}
-			}
-		}
 		
-
+		
+		
+		
+	
+		
 	}
 
 }

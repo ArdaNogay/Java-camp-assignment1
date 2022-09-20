@@ -149,14 +149,8 @@ public class Main {
 		//Asal sayý bulma
 		{
 			int[] sayilar1 = {25,13};
+			int asal_sayi = 0;
 			for(int asaliBul:sayilar1) {
-				if(asaliBul==1) {
-					System.out.println(asaliBul +" sayýsý asal deðildir.");
-					continue;
-				}else if(asaliBul<1) {
-					System.out.println("Geçersiz sayý");
-					return;
-				}
 				boolean asal = true;
 				for(int i1 =2;i1<asaliBul;i1++) {
 					if(asaliBul % i1 == 0) {
@@ -169,79 +163,14 @@ public class Main {
 					System.out.println(asaliBul +" sayýsý asal deðildir.");		
 				}
 			}
-		}
-		
-		
-		//Ýnce ve Kalýn sesli harfler
-		
-		{
-			char harf = 'E';
-			
-			switch(harf) {
-			case'A':
-			case'I':
-			case'O':
-			case'U':
-				System.out.println("Kalýn sesli harf");
-				break;
-			default:
-				System.out.println("Ýnce sesli harf");
-				break;
-			}
-		}
-		
-		//Mükemmel Sayýlar
-		
-		{
-			int sayii = 29;
-			int topla = 0;
-			for(int i1 = 1;i1<sayii;i1++) {
-				if(sayii % i1 == 0) {
-					topla+=i1;
-				}
-			}
-			if(sayii==topla) {
-				System.out.println("Sayýnýz mükemmel bir sayýdýr");
-			}else {
-				System.out.println("Sayýnýz mükemmel bir sayý deðildir");
-			}
-		}
-		
-		//Arkadaþ Sayýlar
-		{
-			int[] toplam1 =new int[2];
-			int[] sayilarr= {220,284};
-			int x = 0;
-			for(int sayi:sayilarr) {
-				int topla = 0;
-				for(int i1 = 1;i1<sayi;i1++) {
-					if(sayi % i1 == 0) {
-						topla+=i1;
-					}
-				}
-				toplam1[x]=topla;
-				x++;
-			}
-			if(toplam1[0]==sayilarr[1] && toplam1[1]==sayilarr[0]) {
-				System.out.println("Bu iki sayý arkadaþtýr.");
-			}
 			
 		}
 		
-		//Sayi Bulma
-		{
-			int[] sayiDizisi = {1,2,3,4,5,6,7,8,9,0};
-			
-			int aranacak = 10;
-			
-			for(int deger:sayiDizisi) {
-				if(deger==aranacak) {
-					System.out.println(deger +" Sayýsý bu dizide mevcuttur");
-				}
-			}
-		}
 		
-
+		
+		
+	
+		
 	}
 
 }
